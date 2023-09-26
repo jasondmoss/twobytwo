@@ -1,0 +1,6 @@
+twobytwo:
+  version: VERSION
+  js:
+    js/script.js: { type: file, minified: false }
+  dependencies:
+    - core/drupal

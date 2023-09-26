@@ -1,0 +1,18 @@
+{
+    "name": "jasondmoss/twobytwo",
+    "description": "A sample module for Tribus Studio.",
+    "type": "drupal-module",
+    "keywords": [ "Drupal" ],
+    "homepage": "https://github.com/jasondmoss/twobytwo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason D. Moss",
+            "homepage": "https://www.drupal.org/u/jasondmoss"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jasondmoss/twobytwo/issues",
+        "source": "https://github.com/jasondmoss/twobytwo"
+    }
+}

@@ -1,0 +1,20 @@
+twobytwo.settings:
+  path: '/admin/config/twobytwo/settings'
+  defaults:
+    _form: Drupal\twobytwo\Forms\SettingsForm
+    _title: 'Adding two and two together'
+    _content: 'This is paragraph text.'
+  requirements:
+    _permission: 'administer site configuration'
+
+twobytwo.presenter:
+  path: '/twobytwo'
+  defaults:
+    _controller: Drupal\twobytwo\Controllers\TwoByTwoController::view
+    _title: 'Two By Two'
+    _menu: 'main'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: true
+

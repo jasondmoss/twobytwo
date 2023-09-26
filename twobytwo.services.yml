@@ -1,0 +1,11 @@
+services:
+  twobytwo.adder:
+    class: Drupal\twobytwo\Services\AdderService
+    arguments: []
+
+  twobytwo.string_formatter:
+    class: Drupal\twobytwo\Services\StringFormatterService
+    arguments: [
+      '@config.factory',
+      '@twobytwo.adder'
+    ]

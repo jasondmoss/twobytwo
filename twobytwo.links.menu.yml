@@ -1,0 +1,13 @@
+twobytwo.admin:
+  title: "'Two By Two' settings"
+  description: 'Demo module for adding 2 numbers together and displaying them in a readable format.'
+  parent: system.admin_config_services
+  route_name: twobytwo.settings
+  weight: 100
+
+twobytwo.page:
+  title: "Two By Two"
+  description: "Presenting the results of adding two numbers together."
+  parent: main
+  route_name: twobytwo.presenter
+  menu_name: main

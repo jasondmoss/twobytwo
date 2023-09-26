@@ -1,0 +1,35 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Implements hook_theme()
+ *
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ *
+ * @return array
+ */
+function twobytwo_theme($existing, $type, $theme, $path): array
+{
+    return [
+        'twobytwo_presenter' => [
+            'variables' => [
+                'presenter_string' => null
+            ]
+        ]
+    ];
+}
+
+
+/**
+ * Implements hook_page_attachments().
+ *
+ * @param array $page
+ */
+function twobytwo_page_attachments(array &$page): void
+{
+    $page['#attached']['library'][] = 'twobytwo/twobytwo';
+}

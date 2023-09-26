@@ -1,0 +1,6 @@
+name: Two By Two
+type: module
+description: 'A sample module to demo the use of service containers to add two numbers and format them into a string for presentation.'
+package: Custom
+version: "1.0"
+core_version_requirement: ^9 || ^10
