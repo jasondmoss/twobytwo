@@ -60,7 +60,6 @@ class SettingsForm extends ConfigFormBase
         $form['input_value_1'] = [
             '#type' => 'number',
             '#title' => $this->t('Value 1'),
-            // '#required' => true,
             '#default_value' => $config->get('input_value_1'),
             '#description' => t('Enter a valid positive integer.')
         ];
@@ -69,7 +68,6 @@ class SettingsForm extends ConfigFormBase
         $form['input_value_2'] = [
             '#type' => 'number',
             '#title' => $this->t('Value 2'),
-            // '#required' => true,
             '#default_value' => $config->get('input_value_2'),
             '#description' => t('Enter a valid positive integer.')
         ];
